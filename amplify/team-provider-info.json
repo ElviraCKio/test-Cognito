@@ -1,20 +1,26 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-pruebaauthgoogle-dev-161514-authRole",
-      "UnauthRoleArn": "arn:aws:iam::496149981144:role/amplify-pruebaauthgoogle-dev-161514-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::496149981144:role/amplify-pruebaauthgoogle-dev-161514-authRole",
-      "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-pruebaauthgoogle-dev-161514-deployment",
-      "UnauthRoleName": "amplify-pruebaauthgoogle-dev-161514-unauthRole",
-      "StackName": "amplify-pruebaauthgoogle-dev-161514",
-      "StackId": "arn:aws:cloudformation:us-east-2:496149981144:stack/amplify-pruebaauthgoogle-dev-161514/58541c40-216a-11ec-ae3a-0679d601df00",
-      "AmplifyAppId": "d47y8puom7bct"
-    },
-    "categories": {
-      "auth": {
-        "pruebaauthgoogle74334dde": {}
-      }
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pruebaauthgoogle-dev-161514-authRole",
+            "UnauthRoleArn": "arn:aws:iam::496149981144:role/amplify-pruebaauthgoogle-dev-161514-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::496149981144:role/amplify-pruebaauthgoogle-dev-161514-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-pruebaauthgoogle-dev-161514-deployment",
+            "UnauthRoleName": "amplify-pruebaauthgoogle-dev-161514-unauthRole",
+            "StackName": "amplify-pruebaauthgoogle-dev-161514",
+            "StackId": "arn:aws:cloudformation:us-east-2:496149981144:stack/amplify-pruebaauthgoogle-dev-161514/58541c40-216a-11ec-ae3a-0679d601df00",
+            "AmplifyAppId": "d47y8puom7bct"
+        },
+        "categories": {
+            "auth": {
+                "pruebaauthgoogle74334dde": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d47y8puom7bct",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
